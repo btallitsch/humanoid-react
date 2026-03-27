@@ -1,0 +1,31 @@
+{
+  "name": "@your-org/utils",
+  "version": "1.0.0",
+  "description": "A generalized, cross-industry React/TypeScript utility library",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --ext .ts,.tsx",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/react": "^18.3.0",
+    "react": "^18.3.0"
+  },
+  "keywords": [
+    "utilities",
+    "typescript",
+    "react",
+    "formatting",
+    "validation",
+    "date",
+    "financial",
+    "string",
+    "array",
+    "currency",
+    "status"
+  ],
+  "license": "MIT"
+}

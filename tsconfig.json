@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2020", "DOM"],
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@utils/date": ["src/date/index.ts"],
+      "@utils/financial": ["src/financial/index.ts"],
+      "@utils/validation": ["src/validation/index.ts"],
+      "@utils/formatting": ["src/formatting/index.ts"],
+      "@utils/string": ["src/string/index.ts"],
+      "@utils/array": ["src/array/index.ts"],
+      "@utils/currency": ["src/currency/index.ts"],
+      "@utils/status": ["src/status/index.ts"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
